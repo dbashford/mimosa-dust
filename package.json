@@ -1,6 +1,6 @@
 {
   "name": "mimosa-dust",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage": "https://github.com/dbashford/mimosa-dust",
   "author": "David Bashford",
   "description": "A Dust compiler for Mimosa 2.0+",
@@ -21,7 +21,6 @@
     "dust"
   ],
   "dependencies": {
-    "logmimosa": "0.6.0",
     "dustjs-linkedin": "2.2.2"
   },
   "license": "MIT",
