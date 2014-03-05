@@ -1,7 +1,7 @@
 "use strict";
 
-var path = require( 'path' )
-  , config = require( './config' )
+var path = require( "path" )
+  , config = require( "./config" )
   , getExtensions = function ( mimosaConfig ) {
     return mimosaConfig.dust.extensions;
   };
@@ -20,7 +20,7 @@ var prefix = function ( mimosaConfig, libraryPath ) {
 
 var suffix = function ( mimosaConfig ) {
   if ( mimosaConfig.template.wrapType === "amd" ) {
-    return 'return dust; });';
+    return "return dust; });";
   } else {
     if ( mimosaConfig.template.wrapType === "common" ) {
       return "\nmodule.exports = dust;";
